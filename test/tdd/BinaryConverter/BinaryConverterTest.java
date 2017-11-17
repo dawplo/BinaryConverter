@@ -27,7 +27,7 @@ public class BinaryConverterTest {
     @Test
     public void convertOneToBinary(){
         BinaryConverter binaryConverter = new BinaryConverter();
-    String binaryOne = binaryConverter.toBinary();
+    String binaryOne = binaryConverter.toBinary(1);
     assertEquals("1", binaryOne);
     }
 }
